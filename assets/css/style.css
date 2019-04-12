@@ -1,0 +1,34 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/*Header*/
+
+header {
+    margin-top: 0;
+}
+
+.logo {
+    background: linear-gradient(rgba(255, 204, 153, 0.45), rgba(255, 204, 153, 0.45)), url("../images/monkees5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.container {
+    text-align: center;
+    line-height: 360px;
+
+}
+
+.rotated-text {
+    display: inline-block;
+    vertical-align: middle;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    transform: rotate(-45deg);
+}
