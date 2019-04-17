@@ -1,48 +1,46 @@
-/*reset standard padding and margin*/
-
-/** {*/
-
-/*    margin: 0;*/
-
-/*    padding: 0;*/
-
-/*}*/
-
 /*Fonts*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Pacifico:100,200,300,400,500,600,700');
 
+/*reset standard padding and margin*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
 
 /*Header*/
 
+header {
+    text-align: center;
+}
+
 .column {
-    float: left;
-    display: inline-block;
-    /*width: 100%;*/
     min-height: 360px;
     padding: 0;
     border: 2px yellow solid;
 }
 
-
-
 .container-text {
     border: 2px purple solid;
     width: 100%;
     height: 360px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
     font-family: "Pacifico", sans-serif;
     -moz-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
-
-
+    position: relative;
 }
 
+.container-text p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 30px;
+}
 
 .logo {
     background: linear-gradient(rgb(255, 255, 102, 0.45), rgb(255, 255, 102, 0.45)), url("../images/monkees.jpg");
@@ -50,14 +48,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    max-width: 100%;
 
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
 /*Navigation*/
@@ -68,31 +60,24 @@
     padding: 0;
 }
 
-.nav-container {
+.navbar a {
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
 
-    display: block;
 
-    margin: 0 auto;
-
+.navbar-nav {
+    width: 100%;
 }
 
 .nav-item {
-
     border-top-left-radius: 10px;
-
     border-top-right-radius: 10px;
-    
-    display: inline-block;
-
     width: 25%;
-
-    text-align: center;
-
     font-family: "Pacifico", sans-serif;
-
 }
 
-.nav-link {}
+
 
 .ui-menu-color-home {
 
@@ -135,7 +120,7 @@ footer {
     width: 40px;
     height: 40px;
     margin-top: 35px;
-    padding: 15px 0;
+    padding: 17px 0;
     border-radius: 50%;
     font-size: 15px;
     line-height: 7px;
@@ -181,15 +166,24 @@ h3:hover {
 /*Media queries*/
 
 @media (max-width:570px) {
+
     .column {
-        width: 30%;
-        border-color: red;
-        border-width: 2px;
-        border-style: solid;
-        padding: 0;
+        min-height: 100px;
     }
 
     .container-text {
-        font-size: 12px;
+        height: 100px;
     }
-}
+
+
+    .container-text p {
+
+        font-size: 12px;
+
+    }
+    
+    .nav-item {
+    width: 75%;
+    height: 50px;
+    text-align: center;
+    }
