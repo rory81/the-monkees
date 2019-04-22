@@ -103,21 +103,64 @@ header {
     margin: 0;
 }
 
-.ui-menu-color-home {
+.ui-menu-color-home,
+.column-home {
     background-color: #ffff66;
 }
 
-.ui-menu-color-media {
+.ui-menu-color-media,
+.column-media {
     background-color: #ffcc99;
 }
 
-.ui-menu-color-about {
+.ui-menu-color-about,
+.column-about {
     background-color: #33ff33;
 }
 
-.ui-menu-color-book {
+.ui-menu-color-book,
+.column-book {
     background-color: #ff99ff;
 }
+
+/*CONTENT*/
+
+.headline {
+    font-family: "Pacifico", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content-column{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.caption {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 10px;
+}
+
+
+
+
+
 
 /*FOOTER*/
 
@@ -156,7 +199,7 @@ footer {
     text-align: right;
 }
 
-.Book-button {
+.book-button {
     width: 60px;
     height: 60px;
     padding: 15px 0;
@@ -181,18 +224,18 @@ h3:hover {
     color: #8f8f8f;
 }
 
-.social-links li a .footer-book:hover,
-.footer-book h3:hover {
+.social-links li a .footer-home:hover,
+.footer-home h3:hover {
     background-color: #ffff66;
 }
 
-.social-links li a .footer-book:hover,
-.footer-book h3:hover {
+.social-links li a .footer-media:hover,
+.footer-media h3:hover {
     background-color: #ffcc99;
 }
 
-.social-links li a .footer-book:hover,
-.footer-book h3:hover {
+.social-links li a .footer-about:hover,
+.footer-about h3:hover {
     background-color: #33ff33;
 }
 
@@ -209,7 +252,6 @@ h3:hover {
 
 @media (min-width:576px) {
     /*HEADER */
-
     .column {
         min-height: 250px;
     }
@@ -261,10 +303,9 @@ h3:hover {
         padding: 0;
         border: 0;
     }
-    
-    /*FOOTER */
 
-    .Book-button {
+    /*FOOTER */
+    .book-button {
         width: 100px;
         height: 100px;
         padding: 45px 0;
@@ -276,4 +317,7 @@ h3:hover {
         width: 40px;
         height: 40px;
         padding: 17px 0;
+    }
+        .social-links {
+        margin-right:25px;
     }
