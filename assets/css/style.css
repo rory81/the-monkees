@@ -58,15 +58,7 @@ header {
     background: linear-gradient(rgb(255, 153, 255, 0.45), rgb(255, 153, 255, 0.45)), url("../images/monkees.jpg");
 }
 
-/*CONTENT MEDIA*/
-.picture-tv {
-    background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldtv.jpg");
-    height: 50px;
-    width: 100%
-
-}
-
-.images {
+.logo {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -178,6 +170,7 @@ iframe {
     height: 150px;
     padding-bottom: 10px;
 }
+
 /*CONTENT HOME*/
 
 .party-content {
@@ -185,7 +178,24 @@ iframe {
     padding: 0px;
 }
 
+/*CONTENT MEDIA*/
 
+.picture-tv {
+    background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldtv.png");
+}
+
+.picture-camera {
+    background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldcamera.png");
+}
+
+.picture-radio {
+    background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldradio.png");
+}
+
+.images {
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
 
 /*FOOTER*/
 
@@ -355,12 +365,11 @@ h3:hover {
         width: 200px;
         height: 200px;
     }
-    
 
-@media (min-width:990px) {
 
-    iframe {
-        width: 300px;
-        height: 150px;
-    }
+    @media (min-width:990px) {
 
+        iframe {
+            width: 300px;
+            height: 150px;
+        }
