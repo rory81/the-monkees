@@ -141,13 +141,13 @@ header {
 
 .content-row {
     width: 100%;
+    margin: 0px auto;
 }
 
 .content-column {
 
     padding-left: 20px;
     padding-right: 20px;
-    width: 100%
 }
 
 .content-title {
@@ -175,6 +175,11 @@ header {
     padding: 0px;
 }
 
+iframe {
+    width: 85px;
+    height: 85px;
+    padding-bottom: 10px;
+}
 
 
 
@@ -341,3 +346,18 @@ h3:hover {
     .social-links {
         margin-right: 25px;
     }
+
+    iframe {
+        width: 200px;
+        height: 200px;
+    }
+    
+    /*MEDIA QUERIES*/
+
+@media (min-width:990px) {
+
+    iframe {
+        width: 270px;
+        height: 270px;
+    }
+
