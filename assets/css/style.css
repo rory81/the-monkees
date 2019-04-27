@@ -181,7 +181,7 @@ iframe {
 /*CONTENT MEDIA*/
 
 .picture-tv {
-    background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldtv.png");
+    background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldtv3.png");
 }
 
 .picture-camera {
@@ -193,8 +193,8 @@ iframe {
 }
 
 .images {
-    background-size: 70%;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*FOOTER*/
