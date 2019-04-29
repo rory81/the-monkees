@@ -109,7 +109,10 @@ header {
 }
 
 .ui-menu-color-media,
-.column-media {
+.column-media,
+.carousel-indicators li,
+.carousel-control-prev,
+.carousel-control-next {
     background-color: #ffcc99;
 }
 
@@ -195,7 +198,21 @@ iframe {
     background-size: cover;
     width: 100%;
     min-height: 120px;
+}
 
+.carousel-caption {
+    transform: translateY(50%);
+    color: #000;
+}
+
+
+audio {
+    width: 60%;
+}
+
+.carousel-item iframe {
+    width: 60%;
+    height: 120px;
 }
 
 
@@ -346,6 +363,24 @@ h3:hover {
         border: 0;
     }
 
+    iframe {
+        width: 200px;
+        height: 200px;
+    }
+
+    .carousel-caption {
+        transform: translateY(-50%);
+    }
+    audio {
+        width: 60%;
+        height: 250px;
+    }
+    .carousel-item iframe {
+        width: 60%;
+        padding-top: 30px;
+        height: 250px;
+    }
+
     /*FOOTER */
     .book-button {
         width: 100px;
@@ -364,19 +399,25 @@ h3:hover {
         margin-right: 25px;
     }
 
+}
+
+
+@media (min-width:990px) {
+
     iframe {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 150px;
+    }
+
+    .images {
+        min-height: 500px;
+    }
+
+    .carousel-item iframe {
+        width: 60%;
+        padding-top: 60px;
+        height: 400px;
     }
 
 
-    @media (min-width:990px) {
-
-        iframe {
-            width: 300px;
-            height: 150px;
-        }
-
-        .images {
-            min-height: 500px;
-        }
+}
