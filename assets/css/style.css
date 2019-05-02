@@ -45,7 +45,7 @@ header {
 }
 
 .logo-media {
-    background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/monkees.jpg");
+    background: linear-gradient(rgb(255, 204, 153, 0.65), rgb(255, 204, 153, 0.65)), url("../images/monkees.jpg");
 }
 
 .logo-about {
@@ -112,18 +112,21 @@ header {
 .column-media,
 .carousel-indicators li
 /*,*/
+
 /*.carousel-control-prev-icon,*/
+
 /*.carousel-control-next-icon */
-{
+
+    {
     background-color: #ffcc99;
 }
 
 .carousel-control-prev-icon {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 
@@ -231,6 +234,28 @@ audio {
 .carousel-item iframe {
     width: 60%;
     height: 120px;
+}
+
+
+/*CONTENT ABOUT*/
+
+.content-title-about {
+    font-family: "Pacifico", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.content-text-about {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.guitar {
+    width: 30%;
+    padding: 20px 0px;
 }
 
 
