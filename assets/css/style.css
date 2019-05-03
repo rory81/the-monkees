@@ -239,6 +239,14 @@ audio {
 
 /*CONTENT ABOUT*/
 
+.column-about-img {
+  background-image: url(/assets/images/banner.PNG);
+  background-repeat: repeat-y;
+  background-size:75%;
+  max-width:100%;
+}
+
+
 .content-title-about {
     font-family: "Pacifico", sans-serif;
     font-size: 32px;
