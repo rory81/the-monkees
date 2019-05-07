@@ -123,8 +123,7 @@ header {
 }
 
 
-.ui-menu-color-about
-    {
+.ui-menu-color-about {
     background-color: #33ff33;
 }
 
@@ -222,6 +221,8 @@ iframe {
 audio {
     width: 60%;
     padding-top: 20px;
+    outline: none;
+    /*https://stackoverflow.com/questions/38840495/remove-blue-border-appearing-around-element-when-clicked*/
 }
 
 .carousel-item iframe {
@@ -233,7 +234,7 @@ audio {
 /*CONTENT ABOUT*/
 
 .column-about-img {
-    background-image: url(/assets/images/banner.PNG);
+    background-image: url(./assets/images/banner.PNG);
     background-repeat: repeat-y;
     background-size: 100%;
     max-width: 80%;
