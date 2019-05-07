@@ -110,14 +110,7 @@ header {
 
 .ui-menu-color-media,
 .column-media,
-.carousel-indicators li
-/*,*/
-
-/*.carousel-control-prev-icon,*/
-
-/*.carousel-control-next-icon */
-
-    {
+.carousel-indicators li {
     background-color: #ffcc99;
 }
 
@@ -240,10 +233,10 @@ audio {
 /*CONTENT ABOUT*/
 
 .column-about-img {
-  background-image: url(/assets/images/banner.PNG);
-  background-repeat: repeat-y;
-  background-size:75%;
-  max-width:100%;
+    background-image: url(/assets/images/banner.PNG);
+    background-repeat: repeat-y;
+    background-size: 75%;
+    max-width: 100%;
 }
 
 
@@ -262,7 +255,7 @@ audio {
 }
 
 .guitar {
-    width: 25%;
+    width: 2%;
     padding: 50px 0px;
 }
 
@@ -272,92 +265,52 @@ audio {
 
 footer {
     background-color: #cacccb;
-    margin: 0 auto;
-    color: #fafafa;
-    min-height: 20px;
-}
-
-#footer-details {
-    padding: 20px;
-}
-
-.social-links li a i {
-    width: 30px;
-    height: 30px;
-    margin-top: 35px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 15px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    /*Mozilla*/
-    -webkit-transition: all 0.35s ease-in-out;
-    /*webkit browsers*/
-    -o-transition: all 0.35s ease-in-out;
-    /*Opera*/
-}
-
-
-ul,
-menu,
-dir {
-    /*display: inline-block;*/
-    float: right;
-}
-
-.book-button {
-    width: 60px;
-    height: 60px;
-    padding: 15px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 15px;
-    text-align: center;
-    float: left;
-    color: #fafafa;
-    background: #8f8f8f;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
+    vertical-align: middle;
 
 }
 
-a:hover {
-    text-decoration: none;
+.social-links {
+    text-align: right;
+    font-size: 16px;
+}
+
+.footer-details {
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+/*http://ksloan.net/css-color-definitions-for-font-awesome-social-icons/*/
+
+.fa-facebook {
+    color: #3b5998;
+
+}
+
+.fa-twitter {
+    color: #00aced;
 }
 
 
-.social-links li a i:hover,
-h3:hover {
-    color: #8f8f8f;
+.fa-youtube {
+    color: #bb0000
 }
 
-.social-links li a .footer-home:hover,
-.footer-home h3:hover {
-    background-color: #ffff66;
-}
-
-.social-links li a .footer-media:hover,
-.footer-media h3:hover {
-    background-color: #ffcc99;
-}
-
-.social-links li a .footer-about:hover,
-.footer-about h3:hover {
-    background-color: #33ff33;
-}
-
-.social-links li a .footer-book:hover,
-.footer-book h3:hover {
-    background-color: #ff99ff;
+.fa-spotify {
+    color: #1ED760;
 }
 
 
+/*ul,*/
 
+/*menu,*/
 
+/*dir {*/
+
+/*display: inline-block;*/
+
+/*    float: right;*/
+
+/*}*/
 
 /*MEDIA QUERIES*/
 
@@ -445,42 +398,31 @@ h3:hover {
 
 
     /*FOOTER */
-    .book-button {
-        width: 100px;
-        height: 100px;
-        padding: 45px 0;
-        font-size: 15px;
-        line-height: 7px;
-    }
-
-    .social-links li a i {
-        width: 40px;
-        height: 40px;
-        padding: 17px 0;
-    }
     .social-links {
-        margin-right: 25px;
+        font-size: 24px;
     }
 
-}
-
-
-@media (min-width:990px) {
-
-    iframe {
-        width: 300px;
-        height: 150px;
-    }
-
-    .images {
-        min-height: 500px;
-    }
-
-    .carousel-item iframe {
-        width: 60%;
-        padding-top: 60px;
-        height: 400px;
+    .footer-details {
+        font-size: 20px;
     }
 
 
-}
+    @media (min-width:990px) {
+
+        iframe {
+            width: 300px;
+            height: 150px;
+        }
+
+        .images {
+            min-height: 500px;
+        }
+
+        .carousel-item iframe {
+            width: 60%;
+            padding-top: 60px;
+            height: 400px;
+        }
+
+
+    }
