@@ -234,7 +234,7 @@ audio {
 /*CONTENT ABOUT*/
 
 .column-about-img {
-    background-image: url(./assets/images/banner.PNG);
+    background-image: url(../images/banner.PNG);
     background-repeat: repeat-y;
     background-size: 100%;
     max-width: 80%;
