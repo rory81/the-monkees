@@ -123,8 +123,8 @@ header {
 }
 
 
-.ui-menu-color-about,
-.column-about {
+.ui-menu-color-about
+    {
     background-color: #33ff33;
 }
 
@@ -235,8 +235,8 @@ audio {
 .column-about-img {
     background-image: url(/assets/images/banner.PNG);
     background-repeat: repeat-y;
-    background-size: 75%;
-    max-width: 100%;
+    background-size: 100%;
+    max-width: 80%;
 }
 
 
@@ -255,8 +255,7 @@ audio {
 }
 
 .guitar {
-    width: 2%;
-    padding: 50px 0px;
+    width: 20%;
 }
 
 
