@@ -189,10 +189,12 @@ iframe {
 
 .picture-tv {
     background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldtv3.png");
+    margin-bottom: 45px;
 }
 
 .picture-camera {
     background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldcamera.png");
+    margin-bottom: 45px;
 }
 
 .picture-radio {
@@ -271,7 +273,6 @@ form {
 footer {
     background-color: #cacccb;
     vertical-align: middle;
-
 }
 
 .social-links {
@@ -304,18 +305,6 @@ footer {
     color: #1ED760;
 }
 
-
-/*ul,*/
-
-/*menu,*/
-
-/*dir {*/
-
-/*display: inline-block;*/
-
-/*    float: right;*/
-
-/*}*/
 
 /*MEDIA QUERIES*/
 
@@ -372,10 +361,17 @@ footer {
         border: 0;
     }
 
+    /*CONTENT */
+    .picture-tv, .picture-camera {
+        margin-bottom: 0px;
+    }
+
     iframe {
         width: 200px;
         height: 200px;
     }
+
+
 
     .carousel-caption {
         transform: translateY(-80%);
