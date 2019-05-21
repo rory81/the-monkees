@@ -189,17 +189,22 @@ iframe {
 
 .picture-tv {
     background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldtv3.png");
-    margin-bottom: 45px;
+    /*margin-bottom: 45px;*/
 }
 
 .picture-camera {
     background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldcamera.png");
-    margin-bottom: 45px;
+    /*margin-bottom: 45px;*/
 }
 
 .picture-radio {
     background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldradio.png");
 }
+
+.mobile-title {
+    font-size: 18px;
+}
+
 
 .images {
     background-repeat: no-repeat;
@@ -231,6 +236,7 @@ audio {
     width: 60%;
     height: 120px;
 }
+
 
 
 /*CONTENT ABOUT*/
@@ -362,9 +368,15 @@ footer {
     }
 
     /*CONTENT */
-    .picture-tv, .picture-camera {
+    .picture-tv,
+    .picture-camera {
         margin-bottom: 0px;
     }
+    
+    .mobile-title {
+    font-size: 30px;
+    margin: 50px 0px;
+}
 
     iframe {
         width: 200px;
