@@ -87,10 +87,11 @@ In this section, you should mention all of the languages, frameworks, libraries,
 ##### General:
     1. Make github pages and test them on
         - Windows
-        - Apple 
-<span style="color:red">Bug:</span> _The pages worked on Apple (OS Sierra) using Cloud9 preview but when testing the Github pages on a 27 inch screen **not** all pages where displayed as intended. Not all pages filled up the entire page. There was an error in the consul:
+        - Apple
 
-<span style="color:red">Error:</span> Failed to load resource: the server responded with a status of 404 () https://rory81.github.io/favicon.ico 
+**Bug:** The pages worked on Apple (OS Sierra) using Cloud9 preview but when testing the Github pages on a 27 inch screen **not** all pages where displayed as intended. Not all pages filled up the entire page. There was an error in the consul:
+
+**Error:**  Failed to load resource: the server responded with a status of 404 () https://rory81.github.io/favicon.ico 
 
 However, testing the Github pages on a iPad Air 2 (OS 12.2) **did** give the intented results of every page.
 
@@ -101,6 +102,35 @@ However, testing the Github pages on a iPad Air 2 (OS 12.2) **did** give the int
     4. Go to the "Home" page and check if it is redirected to the Home page
     5. Use the inspect developer tool and select the mobile device (Galaxy S5) and check if a hamburger menu is shown. Open the hamburger and repeat the previous 4 steps.
     6. Use the inspect developer tool and select the ipad as a device and repeat the above mentioned first four steps
+
+##### Footer:
+    1. Go to the "Media" page and check if
+        - the Book Us Now! redirects the page to the Book Now! page
+        - all the social media icon redirect to the Monkee page of the corresponding social
+    2. Go to the "About Us" page and check if
+        - the Book Us Now! redirects the page to the Book Now! page
+        - all the social media icon redirect to the Monkee page of the corresponding social
+    3. Go to the "Book Now!" page and check if
+        - the Book Us Now! refreshes the Book Now! page
+        - all the social media icon redirect to the Monkee page of the corresponding social
+    4. Go to the "Home" page and check if
+        - the Book Us Now! redirects the page to the Book Now! page
+        - all the social media icon redirect to the Monkee page of the corresponding social
+
+##### Pictures, Video's and Audio fragments:
+    1. Go to the "Media" page and check if 
+        - the caroussel for the video/tv fragments moves with the right as well as the left indicator
+        - the video/tv fragments can be played and paused
+        - the caroussel for the pictures moves with the right as well as the left indicator
+        - the caroussel for the audio fragments moves with the right as well as the left indicator
+        - the audio fragments can be played and paused
+        - the "Want the lyrics" link redirects to the www.azlyrics.com site and displays the lyrics of the corresponding audio fragment
+        - the picture banner is correctly displayed
+    2. Go to the "About Us" page and check if the picture banner is correctly displayed
+    3. Go to the "Home" page and check if 
+        - the video fragments can be played and paused
+    4. Use the inspect developer tool and select the mobile device (Galaxy S5) and repeat the previous 3 steps.
+    5. Use the inspect developer tool and select the ipad as a device and repeat the above mentioned first three steps
 
 ##### Booking form:
     1. Go to the "Book Now!" page
@@ -119,14 +149,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Github pages were made using the master branch (https://rory81.github.io/the-monkees/)
 
 
 ## Credits
