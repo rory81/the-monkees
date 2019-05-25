@@ -20,6 +20,8 @@ header {
     padding: 0;
 }
 
+/*Hey We're the Monkees text*/
+
 .container-text {
     width: 100%;
     height: 100px;
@@ -39,6 +41,8 @@ header {
     transform: translateY(-50%) translateX(-50%);
     font-size: 13px;
 }
+
+/*Monkee picture for all pages a different color*/
 
 .logo-home {
     background: linear-gradient(rgb(255, 255, 102, 0.45), rgb(255, 255, 102, 0.65)), url("../images/monkees.jpg");
@@ -189,12 +193,10 @@ iframe {
 
 .picture-tv {
     background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldtv3.png");
-    /*margin-bottom: 45px;*/
 }
 
 .picture-camera {
     background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldcamera.png");
-    /*margin-bottom: 45px;*/
 }
 
 .picture-radio {
@@ -372,11 +374,12 @@ footer {
     .picture-camera {
         margin-bottom: 0px;
     }
-    
+
     .mobile-title {
-    font-size: 30px;
-    margin: 50px 0px;
-}
+        font-size: 30px;
+        margin: 50px 0px;
+    }
+
 
     iframe {
         width: 200px;
@@ -418,24 +421,23 @@ footer {
     .footer-details {
         font-size: 20px;
     }
+}
 
+@media (min-width:990px) {
 
-    @media (min-width:990px) {
-
-        iframe {
-            width: 300px;
-            height: 150px;
-        }
-
-        .images {
-            min-height: 500px;
-        }
-
-        .carousel-item iframe {
-            width: 60%;
-            padding-top: 60px;
-            height: 400px;
-        }
-
-
+    iframe {
+        width: 300px;
+        height: 150px;
     }
+
+    .images {
+        min-height: 500px;
+    }
+
+    .carousel-item iframe {
+        width: 60%;
+        height: 400px;
+    }
+
+
+}
