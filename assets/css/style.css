@@ -26,9 +26,7 @@ header {
     width: 100%;
     height: 100px;
     font-family: "Pacifico", sans-serif;
-    -moz-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
     position: relative;
@@ -38,25 +36,39 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+        -ms-transform: translateY(-50%) translateX(-50%);
+            transform: translateY(-50%) translateX(-50%);
     font-size: 13px;
 }
 
 /*Monkee picture for all pages a different color*/
 
 .logo-home {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 102, 0.45)), to(rgb(255, 255, 102, 0.65))), url("../images/monkees.jpg");
+    background: -webkit-linear-gradient(rgb(255, 255, 102, 0.45), rgb(255, 255, 102, 0.65)), url("../images/monkees.jpg");
+    background: -o-linear-gradient(rgb(255, 255, 102, 0.45), rgb(255, 255, 102, 0.65)), url("../images/monkees.jpg");
     background: linear-gradient(rgb(255, 255, 102, 0.45), rgb(255, 255, 102, 0.65)), url("../images/monkees.jpg");
 }
 
 .logo-media {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 204, 153, 0.65)), to(rgb(255, 204, 153, 0.65))), url("../images/monkees.jpg");
+    background: -webkit-linear-gradient(rgb(255, 204, 153, 0.65), rgb(255, 204, 153, 0.65)), url("../images/monkees.jpg");
+    background: -o-linear-gradient(rgb(255, 204, 153, 0.65), rgb(255, 204, 153, 0.65)), url("../images/monkees.jpg");
     background: linear-gradient(rgb(255, 204, 153, 0.65), rgb(255, 204, 153, 0.65)), url("../images/monkees.jpg");
 }
 
 .logo-about {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(51, 255, 51, 0.45)), to(rgb(51, 255, 51, 0.15))), url("../images/monkees.jpg");
+    background: -webkit-linear-gradient(rgb(51, 255, 51, 0.45), rgb(51, 255, 51, 0.15)), url("../images/monkees.jpg");
+    background: -o-linear-gradient(rgb(51, 255, 51, 0.45), rgb(51, 255, 51, 0.15)), url("../images/monkees.jpg");
     background: linear-gradient(rgb(51, 255, 51, 0.45), rgb(51, 255, 51, 0.15)), url("../images/monkees.jpg");
 }
 
 .logo-book {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 153, 255, 0.45)), to(rgb(255, 153, 255, 0.45))), url("../images/monkees.jpg");
+    background: -webkit-linear-gradient(rgb(255, 153, 255, 0.45), rgb(255, 153, 255, 0.45)), url("../images/monkees.jpg");
+    background: -o-linear-gradient(rgb(255, 153, 255, 0.45), rgb(255, 153, 255, 0.45)), url("../images/monkees.jpg");
     background: linear-gradient(rgb(255, 153, 255, 0.45), rgb(255, 153, 255, 0.45)), url("../images/monkees.jpg");
 }
 
@@ -192,14 +204,23 @@ iframe {
 /*CONTENT MEDIA*/
 
 .picture-tv {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 204, 153, 0.45)), to(rgb(255, 204, 153, 0.65))), url("../images/oldtv3.png");
+    background: -webkit-linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldtv3.png");
+    background: -o-linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldtv3.png");
     background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldtv3.png");
 }
 
 .picture-camera {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 204, 153, 0.45)), to(rgb(255, 204, 153, 0.65))), url("../images/oldcamera.png");
+    background: -webkit-linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldcamera.png");
+    background: -o-linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldcamera.png");
     background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldcamera.png");
 }
 
 .picture-radio {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 204, 153, 0.45)), to(rgb(255, 204, 153, 0.65))), url("../images/oldradio.png");
+    background: -webkit-linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldradio.png");
+    background: -o-linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldradio.png");
     background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldradio.png");
 }
 
@@ -216,7 +237,9 @@ iframe {
 }
 
 .carousel-caption {
-    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+            transform: translateY(50%);
     color: #000;
     padding-top: 0px;
 }
@@ -331,7 +354,9 @@ footer {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translateY(-50%) translateX(-50%);
+        -webkit-transform: translateY(-50%) translateX(-50%);
+            -ms-transform: translateY(-50%) translateX(-50%);
+                transform: translateY(-50%) translateX(-50%);
         font-size: 30px;
     }
 
@@ -389,7 +414,9 @@ footer {
 
 
     .carousel-caption {
-        transform: translateY(-80%);
+        -webkit-transform: translateY(-80%);
+            -ms-transform: translateY(-80%);
+                transform: translateY(-80%);
     }
 
 
