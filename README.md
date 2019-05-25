@@ -13,55 +13,103 @@ A music critic from _"Music in Minnesota"_, Erik Ritland, described it best afte
  
 The main user experience is to get the sixties vibe. When looking at sites from similar bands from that time it screams color and unlike most current sites it is very crowded. Which is probably how the sixties were, colorful and lively.
 
+**The fan from back in the day wants:**
+- quick access to recognisable music
+- to see the Monkees again the way they remembered
+- quick access to news and background about their idols from the past
+- to be able to follow them again on socials
+- quick access to dates and locations where they can see the Monkees perform to relive the old memories
+- the option to book The Monkees for an event of there own
 
-**..* The fan from back in the day** wants quick access to:
-        ..1. recognisable music
-        ..2. news about their idols from the past
-        ..3. dates and locations where they can see the Monkees perform to relive the old memories
+**The user curious about The Monkees wants:**
+- quick access to the Monkees' music they recognize but didn't know it where the Monkees
+- to put faces to the band _'The Monkees'_
+- easy access to more material
+- to know the origin story behind _'The Monkees'_ 
+- to be part of The Monkees' community by following them on socials
+- dates and locations for live performances - if the location and price is right people might be curious about them
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+In the folder mockups - under the folder assets - a PDF- as well as a Pencil-project version is available of the initial mockups.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+**Deviations from the mockups**
+- In the final version the Media page (Orange tab) for the mobile and iPad version have titles, which weren't in the inital mockups. For the mobile version this was added so the page content could fill the page and there was some spacing between the three different media elements. For the ipad spacing was the only reason. The title wasn't added to the desktop version, because it was more calming without it and the media items were also bigger there and less need for spacing between the three media elements. 
+- The banner of the about page eventuallly did not get a green background color, because the banner with the Monkee picture were enough and the green turned out to be more of a distraction rather than an addition.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+This project has 4 pages. A short description of these pages is written below.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+### 1. Homepage
+Due to the color scheme - with is directly related to the colors in the navigation - the underlining 3 features are easily noticeable by the user.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- The user can instantly see what is new with The Monkees
+- The white in between the colors makes the dates and location of upcoming events for the Monkees pop out.
+- Top three of the most known hits by The Monkees can be heard. The middle video shows the album _'The Birds, The Bees, & the Monkees'_ and is a direct reference to the anniversary mentioned in the News section. The other 2 video's show photo's and video of the monkees back in the day. This section is meant to make the user want to see/hear more of The Monkees and the orange is therefore directly linked to the media tab in the navigation.
 
-### Features Left to Implement
-- Another feature idea
+### 2. Media page
+This page gives the user access to more material then the given top three on the homepage. It gives the user access to
+- Video about the monkees and TV episodes of the monkees
+- Pictures of albums of the monkees which are nice as pictures, but also gives the user album titles to search for music on mediums like Spotify.
+- The user can listen to some Monkee recordings in the music section, but also has a link available to see the corresponding lyrics to the song.
+
+### 3. About page
+A short origin story of The monkees is given as wel as a short biography of all four Monkees.
+
+### 4. Book page
+For the Monkees it is very important that users can easily find the way to book them. Therefore, a link is readily available in the footer linking to the book page.
+The form on the book pages is validated but the checkbox for validation is made invisible to the user so validation is standard.
+Due to privacy considerations a disclaimer is added.
+
+### General
+All pages have socials in the footer, linking the user directly to the Monkee community.
+
+
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
+- [HTML](https://www.w3.org/html/)
+    - The project uses **HTML** as it is World Wide Web’s core markup language
+- [CSS](https://www.w3.org/Style/CSS/)
+    - The project uses **CSS** to style the HTML
+    - Bootstrap (https://getbootstrap.com/) classes are used
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+    - Bootstrap (https://getbootstrap.com/) plugins are used
+
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+##### General:
+    1. Make github pages and test them on
+        - Windows
+        - Apple 
+<span style="color:red">Bug:</span> _The pages worked on Apple (OS Sierra) using Cloud9 preview but when testing the Github pages on a 27 inch screen **not** all pages where displayed as intended. Not all pages filled up the entire page. There was an error in the consul:
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+<span style="color:red">Error:</span> Failed to load resource: the server responded with a status of 404 () https://rory81.github.io/favicon.ico 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+However, testing the Github pages on a iPad Air 2 (OS 12.2) **did** give the intented results of every page.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+##### Navigation:
+    1. Go to the "Media" page and check if it is redirected to the Media page
+    2. Go to the "About Us" page and check if it is redirected to the About US page
+    3. Go to the "Book Now!" page and check if it is redirected to the Book page
+    4. Go to the "Home" page and check if it is redirected to the Home page
+    5. Use the inspect developer tool and select the mobile device (Galaxy S5) and check if a hamburger menu is shown. Open the hamburger and repeat the previous 4 steps.
+    6. Use the inspect developer tool and select the ipad as a device and repeat the above mentioned first four steps
+
+##### Booking form:
+    1. Go to the "Book Now!" page
+    2. Use the inspect developers option to check the page on mobile (Galaxy S5) and iPad. Running the page without the inspect developer option represent the dtp version.
+    3. Try to submit the empty form and verify that an error message about the required fields appears
+    4. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    5. Try to submit the form with all inputs valid and verify that a success message appears.
+
+
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
