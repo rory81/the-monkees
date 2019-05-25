@@ -5,12 +5,20 @@ The challenge is to be able to give people who grew up being a Monkees'fan the s
 Most people who did not grew up with the Monkees will recognize the music when they hear it, but simply did not know it were the Monkees singing it. So its the music rather than the tv show that eventuallly made their legacy.
 
 Even though not all the members of the Monkees are still alive the remaining Monkees still know how how to create a illuminating performance. 
-A music critic from _"Music in Minnesota"_, Erik Ritland, described it best after weeing them perform:
+A music critic from _"Music in Minnesota"_, Erik Ritland, described it best after seeing them perform:
 **_"The Monkees'Best kept secret: Their Music is really, really good"_**
 
  
 ## UX
  
+The main user experience is to get the sixties vibe. When looking at sites from similar bands from that time it screams color and unlike most current sites it is very crowded. Which is probably how the sixties were, colorful and lively.
+
+
+**..* The fan from back in the day** wants quick access to:
+        ..1. recognisable music
+        ..2. news about their idols from the past
+        ..3. dates and locations where they can see the Monkees perform to relive the old memories
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
