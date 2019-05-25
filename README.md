@@ -88,13 +88,18 @@ In this section, you should mention all of the languages, frameworks, libraries,
     1. Make github pages and test them on
         - Windows
         - Apple
+        **Bug:** The pages worked on Apple (OS Sierra) using Cloud9 preview but when testing the Github pages on a 27 inch screen **not** all pages where displayed as intended. Not all pages filled up the entire page. There was an error in the consol:
+
+        **Error:**  Failed to load resource: the server responded with a status of 404 () https://rory81.github.io/favicon.ico 
+        
+        However, testing the Github pages on a iPad Air 2 (OS 12.2) **did** give the intented results of every page.
     2. Use the mockups (/assets/mockups/The_Monkees_final.pdf) to see the intented results per device. In the above mentioned UX chapter the deviations from the mockups are noted.The inspect developer tool is used to select the Mobile (Galaxy S5) or the ipad device. Running the page without the inspect developer option represent the dtp version.
+    3. Use HTML validator: 2 warnings
+        - No heading with section
+        - The use of datetime-local in the booking form instead of polyfill
+    4. Use CSS validator: validates as CSS level 3 + SVG. Existing warnings were about the use of webkits for other browsers.
 
-**Bug:** The pages worked on Apple (OS Sierra) using Cloud9 preview but when testing the Github pages on a 27 inch screen **not** all pages where displayed as intended. Not all pages filled up the entire page. There was an error in the consul:
 
-**Error:**  Failed to load resource: the server responded with a status of 404 () https://rory81.github.io/favicon.ico 
-
-However, testing the Github pages on a iPad Air 2 (OS 12.2) **did** give the intented results of every page.
 
 ##### Navigation:
     1. Go to the "Media" page and check if 
