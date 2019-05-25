@@ -29,7 +29,7 @@ The main user experience is to get the sixties vibe. When looking at sites from 
 - to be part of The Monkees' community by following them on socials
 - dates and locations for live performances - if the location and price is right people might be curious about them
 
-In the folder mockups - under the folder assets - a PDF- as well as a Pencil-project version is available of the initial mockups.
+In the folder mockups - under the folder assets - a PDF- as well as a Pencil-project version is available of the initial mockups (/assets/mockups/The_Monkees_final.pdf).
 
 **Deviations from the mockups**
 - In the final version the Media page (Orange tab) for the mobile and iPad version have titles, which weren't in the inital mockups. For the mobile version this was added so the page content could fill the page and there was some spacing between the three different media elements. For the ipad spacing was the only reason. The title wasn't added to the desktop version, because it was more calming without it and the media items were also bigger there and less need for spacing between the three media elements. 
@@ -88,6 +88,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
     1. Make github pages and test them on
         - Windows
         - Apple
+    2. Use the mockups (/assets/mockups/The_Monkees_final.pdf) to see the intented results per device. In the above mentioned UX chapter the deviations from the mockups are noted.The inspect developer tool is used to select the Mobile (Galaxy S5) or the ipad device. Running the page without the inspect developer option represent the dtp version.
 
 **Bug:** The pages worked on Apple (OS Sierra) using Cloud9 preview but when testing the Github pages on a 27 inch screen **not** all pages where displayed as intended. Not all pages filled up the entire page. There was an error in the consul:
 
@@ -96,10 +97,16 @@ In this section, you should mention all of the languages, frameworks, libraries,
 However, testing the Github pages on a iPad Air 2 (OS 12.2) **did** give the intented results of every page.
 
 ##### Navigation:
-    1. Go to the "Media" page and check if it is redirected to the Media page
-    2. Go to the "About Us" page and check if it is redirected to the About US page
+    1. Go to the "Media" page and check if 
+        - it is redirected to the Media page
+        - it corresponds to the layout, for the selected device, presented in the mockup
+    2. Go to the "About Us" page and check if 
+        - it is redirected to the About US page
+        - it corresponds to the layout, for the selected device, presented in the mockup
     3. Go to the "Book Now!" page and check if it is redirected to the Book page
-    4. Go to the "Home" page and check if it is redirected to the Home page
+    4. Go to the "Home" page and check if 
+        - it is redirected to the Home page
+        - it corresponds to the layout, for the selected device, presented in the mockup
     5. Use the inspect developer tool and select the mobile device (Galaxy S5) and check if a hamburger menu is shown. Open the hamburger and repeat the previous 4 steps.
     6. Use the inspect developer tool and select the ipad as a device and repeat the above mentioned first four steps
 
@@ -139,13 +146,6 @@ However, testing the Github pages on a iPad Air 2 (OS 12.2) **did** give the int
     4. Try to submit the form with an invalid email address and verify that a relevant error message appears
     5. Try to submit the form with all inputs valid and verify that a success message appears.
 
-
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
