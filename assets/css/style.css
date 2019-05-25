@@ -450,6 +450,8 @@ footer {
     }
 }
 
+
+
 @media (min-width:990px) {
 
     iframe {
@@ -458,13 +460,22 @@ footer {
     }
 
     .images {
-        min-height: 500px;
+        min-height: 430px;
     }
 
     .carousel-item iframe {
         width: 60%;
         height: 400px;
     }
-
-
+    
+    .carousel-caption {
+        -webkit-transform: translateY(-250%);
+            -ms-transform: translateY(-250%);
+                transform: translateY(-250%);
+    }
+    
+    .mobile-title {
+        font-size: 34px
+    }
 }
+
