@@ -262,7 +262,6 @@ audio {
     width: 60%;
     padding-top: 20px;
     outline: none;
-    /*https://stackoverflow.com/questions/38840495/remove-blue-border-appearing-around-element-when-clicked*/
 }
 
 .carousel-item iframe {
@@ -305,7 +304,7 @@ audio {
 form {
     padding: 50px 0px;
 }
-
+/*make the checked checkbox invisible to ensure validation of the form*/
 .form-check {
  visibility: hidden;   
 }

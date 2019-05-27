@@ -191,6 +191,7 @@ Github pages were made using the master branch (https://rory81.github.io/the-mon
 
 - The CSS code to make the color gradient so that every page has a different colorwashed foto was obtained from https://css-tricks.com/snippets/css/css-linear-gradient/
 - The CSS code to give the social media icons their original look was obtained from http://ksloan.net/css-color-definitions-for-font-awesome-social-icons/
+- Every time an audio fragment played a blue frame appeared. The code to solve this bug was obtained from https://stackoverflow.com/questions/38840495/remove-blue-border-appearing-around-element-when-clicked
 - code templates, classes and plugins were used from https://getbootstrap.com/
 - Acknowledgements for the people on Slack for helping me through the tough spots, especially Anna_lead
 - Acknowledgement for mentor Maranatha Ilesanmi for advising and helping me.
