@@ -118,7 +118,7 @@ header {
     margin: 0;
 }
 
-
+/*COLORS*/
 .ui-menu-color-home,
 .column-home {
     background-color: #ffff66;
@@ -130,15 +130,6 @@ header {
     background-color: #ffcc99;
 }
 
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-}
-
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-}
-
-
 .ui-menu-color-about {
     background-color: #33ff33;
 }
@@ -148,7 +139,10 @@ header {
     background-color: #ff99ff;
 }
 
+
 /*CONTENT*/
+
+/*GENERAL ELEMENTS*/
 
 .headline {
     font-family: "Pacifico", sans-serif;
@@ -241,6 +235,15 @@ img {
     min-height: 120px;
 }
 
+/*CAROUSEL*/
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
 .carousel-caption {
     -webkit-transform: translateY(50%);
         -ms-transform: translateY(50%);
@@ -325,11 +328,10 @@ footer {
     font-size: 14px;
 }
 
-/*http://ksloan.net/css-color-definitions-for-font-awesome-social-icons/*/
+/* SOCIAL ICONS - SET ORIGINAL COLOR*/
 
 .fa-facebook {
     color: #3b5998;
-
 }
 
 .fa-twitter {
@@ -421,7 +423,6 @@ footer {
     }
 
 
-
     .carousel-caption {
         -webkit-transform: translateY(-80%);
             -ms-transform: translateY(-80%);
@@ -488,6 +489,8 @@ footer {
     }
 }
 
+/*The min-height in mediaquery 990px was adjusted so the media page would also work on ipad held horizontally.*/
+/*The underlining media query is added to make the bannerpictures on the media page work on bigger screens. */
 @media (min-width:1459px) {
 
     .images {

@@ -52,6 +52,7 @@
 				<div class="row no-gutters container-fluid">
 					<div class="col-12">
 						<form>
+							<!--Besides contact info it is important to know where, when and what kind event it is for The Monkees to prepare their set-->
 							<div class="form-group">
 								<label for="InputName">Full Name</label>
 								<input type="text" class="form-control" id="InputName" aria-describedby="InputName" placeholder="Enter your full name" required>
@@ -84,16 +85,19 @@
 								<label for="InputEmail">Email address</label>
 								<input type="email" class="form-control" id="InputEmail" aria-describedby="InputEmail" placeholder="Enter email" required>
 							</div>
+							<!--Anything other than the pre-selected questions can be added in this textarea-->
 							<div class="form-group">
 								<label for="Textarea">Want to share more?</label>
 								<textarea class="form-control" id="Textarea" aria-describedby="Textarea" rows="3"></textarea>
 							</div>
+							<!--The form is validated, but the checkbox is made invisible for the users so the validation is automatic-->
 							<div class="form-check">
 								<input type="checkbox" class="form-check-input" id="CheckForm" checked>
 								<label class="form-check-label" for="CheckForm">Validate Form</label>
 							</div>
 							<button type="submit" class="btn btn-primary">Submit</button>
 							<div>
+								<!--For privacy issues a disclaimer is added-->
 								<small id="disclaimer" class="form-text text-muted">We'll never share your personal information with anyone else.</small>
 							</div>
 						</form>
@@ -148,6 +152,6 @@
 
 	</footer>
 
-	</body>
+</body>
 
 </html>
