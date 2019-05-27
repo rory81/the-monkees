@@ -84,15 +84,13 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
-##### General:
+##### General
     1. Make github pages and test them on
         - Windows
         - Apple
         **Bug:** The pages worked on Apple (OS Sierra) using Cloud9 preview but when testing the Github pages on a 27 inch screen **not** all pages where displayed as intended. Not all pages filled up the entire page. There was an error in the consol:
-
         **Error:**  Failed to load resource: the server responded with a status of 404 () https://rory81.github.io/favicon.ico 
-        
-        However, testing the Github pages on a iPad Air 2 (OS 12.2) **did** give the intented results of every page.
+        However, testing the Github pages on a iPad Air 2 (OS 12.2), vertically as well as horizontally, **did** give the intented results of every page.
     2. Use the mockups (/assets/mockups/The_Monkees_final.pdf) to see the intented results per device. In the above mentioned UX chapter the deviations from the mockups are noted.The inspect developer tool is used to select the Mobile (Galaxy S5) or the ipad device. Running the page without the inspect developer option represent the dtp version.
     3. Use HTML validator: 2 warnings
         - No heading with section
@@ -100,8 +98,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
     4. Use CSS validator: validates as CSS level 3 + SVG. Existing warnings were about the use of webkits for other browsers.
 
 
-
-##### Navigation:
+##### Navigation
     1. Go to the "Media" page and check if 
         - it is redirected to the Media page
         - it corresponds to the layout, for the selected device, presented in the mockup
@@ -129,7 +126,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
         - the Book Us Now! redirects the page to the Book Now! page
         - all the social media icon redirect to the Monkee page of the corresponding social
 
-##### Pictures, Video's and Audio fragments:
+##### Pictures, Video's and Audio fragments
     1. Go to the "Media" page and check if 
         - the caroussel for the video/tv fragments moves with the right as well as the left indicator
         - the video/tv fragments can be played and paused
@@ -144,7 +141,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
     4. Use the inspect developer tool and select the mobile device (Galaxy S5) and repeat the previous 3 steps.
     5. Use the inspect developer tool and select the ipad as a device and repeat the above mentioned first three steps
 
-##### Booking form:
+##### Booking form
     1. Go to the "Book Now!" page
     2. Use the inspect developers option to check the page on mobile (Galaxy S5) and iPad. Running the page without the inspect developer option represent the dtp version.
     3. Try to submit the empty form and verify that an error message about the required fields appears
@@ -160,11 +157,40 @@ Github pages were made using the master branch (https://rory81.github.io/the-mon
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the news section (yellow column) on the homepage was copied from [The Official Monkees site](https://www.monkees.com/)
+- The text for the event section (white column) on the homepage was copied from [The Official Monkees site](https://www.monkees.com/)
+- Fonts were obtained from https://fonts.googleapis.com
+- Social media icons as well as the radiobuttons for the events on the homepage were obtained from https://fontawesome.com/
+- The text for the about page was copied from https://www.biography.com & http://www.monkeesrule43.com
+
+
 
 ### Media
-- The photos used in this site were obtained from ...
+- The logo photo is obtained from https://www.musicradar.com/news/drums/interview-the-monkees-micky-dolenz-talks-drumming-fame-beatles-hendrix-and-more-563994
+- All video's on the homepage and media page are embedded links from [YouTube](https://www.youtube.com/)
+- The photo's used in the banner for the media site were obtained from http://clipart-library.com/
+- The photo's used in the camera section of the media site were obtained from
+    * https://intl.target.com/
+    * https://www.monkeeslivealmanac.com/blog/category/greatest-hits-collections
+    * https://pinterest.com/
+    * http://www.noise11.com/news/the-monkees-to-score-highest-billboard-debut-in-48-years-20160604
+    * http://colli.tripod.com/present/present.html
+- The music used in the radio section of the media site were obtained from
+    * Sixties Top 2626
+    * Greatest Hits album
+- The lyrics refered to in the radio section of the media site were obtained from
+    * www.azlyrics.com
+- The monkee guitar on the about page were obtained from
+    * https://www.ebay.com/itm/The-Monkees-Decal-Sticker-Free-Shipping-/201831541824
+- The photo's used in the banner for the about site were obtained from
+    * https://www.monkeeslivealmanac.com/blog/henry-diltz-photographs-peter-tork-during-the-filming-of-head
+    * https://comicvine.gamespot.com/michael-nesmith/4005-82798/
+    * https://pinterest.com/
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- The CSS code to make the color gradient so that every page has a different colorwashed foto was obtained from https://css-tricks.com/snippets/css/css-linear-gradient/
+- The CSS code to give the social media icons their original look was obtained from http://ksloan.net/css-color-definitions-for-font-awesome-social-icons/
+- code templates, classes and plugins were used from https://getbootstrap.com/
+- Acknowledgements for the people on Slack for helping me through the tough spots, especially Anna_lead
+- Acknowledgement for mentor Maranatha Ilesanmi for advising and helping me.
