@@ -5,11 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>Hey! Hey! We're The Monkees</title>
@@ -46,32 +42,31 @@
 
 		</div>
 	</header>
-	<section>
-		<div class="row no-gutters">
-			<div class="col-12 col-md-6 column column-book mx-auto">
-				<div class="row no-gutters container-fluid">
-					<div class="col-12">
-						<form>
-							<!--Besides contact info it is important to know where, when and what kind event it is for The Monkees to prepare their set-->
-							<div class="form-group">
-								<label for="InputName">Full Name</label>
-								<input type="text" class="form-control" id="InputName" aria-describedby="InputName" placeholder="Enter your full name" required>
-							</div>
-							<div class="form-group">
-								<label for="InputTel">Phone number</label>
-								<input type="tel" class="form-control" id="InputTel" aria-describedby="InputTel" placeholder="Enter your phone number" pattern="[0-9]{10}" title="Ten digits code" required>
-							</div>
-							<div class="form-group">
-								<label for="InputLocation">Location</label>
-								<input type="text" class="form-control" id="InputLocation" aria-describedby="InputLocation" placeholder="Enter the location of the event" required>
-							</div>
-							<div class="form-group">
-								<label for="InputDate">Date</label>
-								<input type="datetime-local" class="form-control" id="InputDate" aria-describedby="InputDate" required>
-							</div>
-							<div class="form-group">
-								<label for="InputEvent">Kind of event</label>
-								<select class="form-control" id="InputEvent" aria-describedby="InputEvent">
+	<div class="row no-gutters">
+		<div class="col-12 col-md-6 column column-book mx-auto">
+			<div class="row no-gutters container-fluid">
+				<div class="col-12">
+					<form>
+						<!--Besides contact info it is important to know where, when and what kind event it is for The Monkees to prepare their set-->
+						<div class="form-group">
+							<label for="InputName">Full Name</label>
+							<input type="text" class="form-control" id="InputName" aria-describedby="InputName" placeholder="Enter your full name" required>
+						</div>
+						<div class="form-group">
+							<label for="InputTel">Phone number</label>
+							<input type="tel" class="form-control" id="InputTel" aria-describedby="InputTel" placeholder="Enter your phone number" pattern="[0-9]{10}" title="Ten digits code" required>
+						</div>
+						<div class="form-group">
+							<label for="InputLocation">Location</label>
+							<input type="text" class="form-control" id="InputLocation" aria-describedby="InputLocation" placeholder="Enter the location of the event" required>
+						</div>
+						<div class="form-group">
+							<label for="InputDate">Date</label>
+							<input type="datetime-local" class="form-control" id="InputDate" aria-describedby="InputDate" required>
+						</div>
+						<div class="form-group">
+							<label for="InputEvent">Kind of event</label>
+							<select class="form-control" id="InputEvent" aria-describedby="InputEvent">
   							<option>---Select an Event Type---</option>
   							<option>Wedding</option>
   							<option>Reunion</option>
@@ -80,34 +75,32 @@
   							<option>Pension</option>
   							<option>Other</option>
 							</select>
-							</div>
-							<div class="form-group">
-								<label for="InputEmail">Email address</label>
-								<input type="email" class="form-control" id="InputEmail" aria-describedby="InputEmail" placeholder="Enter email" required>
-							</div>
-							<!--Anything other than the pre-selected questions can be added in this textarea-->
-							<div class="form-group">
-								<label for="Textarea">Want to share more?</label>
-								<textarea class="form-control" id="Textarea" aria-describedby="Textarea" rows="3"></textarea>
-							</div>
-							<!--The form is validated, but the checkbox is made invisible for the users so the validation is automatic-->
-							<div class="form-check">
-								<input type="checkbox" class="form-check-input" id="CheckForm" checked>
-								<label class="form-check-label" for="CheckForm">Validate Form</label>
-							</div>
-							<button type="submit" class="btn btn-primary">Submit</button>
-							<div>
-								<!--For privacy issues a disclaimer is added-->
-								<small id="disclaimer" class="form-text text-muted">We'll never share your personal information with anyone else.</small>
-							</div>
-						</form>
-					</div>
+						</div>
+						<div class="form-group">
+							<label for="InputEmail">Email address</label>
+							<input type="email" class="form-control" id="InputEmail" aria-describedby="InputEmail" placeholder="Enter email" required>
+						</div>
+						<!--Anything other than the pre-selected questions can be added in this textarea-->
+						<div class="form-group">
+							<label for="Textarea">Want to share more?</label>
+							<textarea class="form-control" id="Textarea" aria-describedby="Textarea" rows="3"></textarea>
+						</div>
+						<!--The form is validated, but the checkbox is made invisible for the users so the validation is automatic-->
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input" id="CheckForm" checked>
+							<label class="form-check-label" for="CheckForm">Validate Form</label>
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+						<div>
+							<!--For privacy issues a disclaimer is added-->
+							<small id="disclaimer" class="form-text text-muted">We'll never share your personal information with anyone else.</small>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
-	</section>
-
-	<footer class="container-fluid ">
+	</div>
+	<footer class="footer container-fluid ">
 		<div class="row ">
 			<div id=footer-details class="col-4 footer-details">
 				<a href="book.html">
@@ -151,7 +144,9 @@
 		</div>
 
 	</footer>
-
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

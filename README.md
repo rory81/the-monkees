@@ -92,10 +92,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
         **Error:**  Failed to load resource: the server responded with a status of 404 () https://rory81.github.io/favicon.ico 
         However, testing the Github pages on a iPad Air 2 (OS 12.2), vertically as well as horizontally, **did** give the intented results of every page.
     2. Use the mockups (/assets/mockups/The_Monkees_final.pdf) to see the intented results per device. In the above mentioned UX chapter the deviations from the mockups are noted.The inspect developer tool is used to select the Mobile (Galaxy S5) or the ipad device. Running the page without the inspect developer option represent the dtp version.
-    3. Use HTML validator: 2 warnings
-        - No heading with section
-        - The use of datetime-local in the booking form instead of polyfill
-    4. Use CSS validator: validates as CSS level 3 + SVG. Existing warnings were about the use of webkits for other browsers.
+    3. Use CSS validator: validates as CSS level 3 + SVG. Existing warnings were about the use of webkits for other browsers.
 
 
 ##### Navigation
@@ -192,6 +189,7 @@ Github pages were made using the master branch (https://rory81.github.io/the-mon
 
 - The CSS code to make the color gradient so that every page has a different colorwashed foto was obtained from https://css-tricks.com/snippets/css/css-linear-gradient/
 - The CSS code to give the social media icons their original look was obtained from http://ksloan.net/css-color-definitions-for-font-awesome-social-icons/
+- The CSS code to make the sticky footer work was obtained from https://stackoverflow.com/questions/46722697/bootstrap-4-sticky-footer-not-sticking
 - Every time an audio fragment played a blue frame appeared. The code to solve this bug was obtained from https://stackoverflow.com/questions/38840495/remove-blue-border-appearing-around-element-when-clicked
 - code templates, classes and plugins were used from https://getbootstrap.com/
 - Acknowledgements for the people on Slack for helping me through the tough spots, especially Anna_lead
