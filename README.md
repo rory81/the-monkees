@@ -148,9 +148,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 
 ## Deployment
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-Github pages were made using the master branch (https://rory81.github.io/the-monkees/)
-
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/rory81/the-monkees.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ## Credits
 
@@ -189,8 +189,8 @@ Github pages were made using the master branch (https://rory81.github.io/the-mon
 
 - The CSS code to make the color gradient so that every page has a different colorwashed foto was obtained from https://css-tricks.com/snippets/css/css-linear-gradient/
 - The CSS code to give the social media icons their original look was obtained from http://ksloan.net/css-color-definitions-for-font-awesome-social-icons/
-- The CSS code to make the sticky footer work was obtained from https://stackoverflow.com/questions/46722697/bootstrap-4-sticky-footer-not-sticking
 - Every time an audio fragment played a blue frame appeared. The code to solve this bug was obtained from https://stackoverflow.com/questions/38840495/remove-blue-border-appearing-around-element-when-clicked
-- code templates, classes and plugins were used from https://getbootstrap.com/
+- Deployment was obtained from example 5 on the [Code Institute site](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/c75714c9636b4cf59120d60acbec6ffd/f851a16813f14b3aae7bd1e6560443cd/?activate_block_id=block-v1%3Acodeinstitute%2BFE%2B2017_T3%2Btype%40sequential%2Bblock%40f851a16813f14b3aae7bd1e6560443cd)
+- Code templates, classes and plugins were used from https://getbootstrap.com/
 - Acknowledgements for the people on Slack for helping me through the tough spots, especially Anna_lead
 - Acknowledgement for mentor Maranatha Ilesanmi for advising and helping me.
