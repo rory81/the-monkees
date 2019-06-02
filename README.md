@@ -85,15 +85,19 @@ In this section, you should mention all of the languages, frameworks, libraries,
 ## Testing
 
 ##### General
-    1. Make github pages and test them on
+    1. Make github pages and test them on (both on Chrome)
         - Windows
         - Apple
-        **Bug:** The pages worked on Apple (OS Sierra) using Cloud9 preview but when testing the Github pages on a 27 inch screen **not** all pages where displayed as intended. Not all pages filled up the entire page. There was an error in the consol:
-        **Error:**  Failed to load resource: the server responded with a status of 404 () https://rory81.github.io/favicon.ico 
-        However, testing the Github pages on a iPad Air 2 (OS 12.2), vertically as well as horizontally, **did** give the intented results of every page.
-    2. Use the mockups (/assets/mockups/The_Monkees_final.pdf) to see the intented results per device. In the above mentioned UX chapter the deviations from the mockups are noted.The inspect developer tool is used to select the Mobile (Galaxy S5) or the ipad device. Running the page without the inspect developer option represent the dtp version.
-    3. Use CSS validator: validates as CSS level 3 + SVG. Existing warnings were about the use of webkits for other browsers.
-
+    2. Use the mockups (/assets/mockups/The_Monkees_final.pdf) to see the intented results per 
+        device. In the above mentioned UX chapter the deviations from the mockups are noted.
+        The inspect developer tool is used to select the Mobile (Galaxy S5) or the ipad device. 
+        Running the page without the inspect developer option represent the dtp version.
+    3. Use CSS validator: validates as CSS level 3 + SVG. Existing warnings were about the use of 
+        webkits for other browsers.
+**Bug:** The pages worked on Apple (OS Sierra) using Cloud9 preview on a 27 inch screen, but when testing the Github pages on this big screen **not** all pages where displayed as 
+        intended.
+        However, testing the Github pages on a iPad Air 2 (OS 12.2), vertically as well as 
+        horizontally, **did** give the intented results of every page.
 
 ##### Navigation
     1. Go to the "Media" page and check if 
@@ -106,8 +110,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
     4. Go to the "Home" page and check if 
         - it is redirected to the Home page
         - it corresponds to the layout, for the selected device, presented in the mockup
-    5. Use the inspect developer tool and select the mobile device (Galaxy S5) and check if a hamburger menu is shown. Open the hamburger and repeat the previous 4 steps.
-    6. Use the inspect developer tool and select the ipad as a device and repeat the above mentioned first four steps
+    5. Use the inspect developer tool and select the mobile device (Galaxy S5) and check if a 
+        hamburger menu is shown. Open the hamburger and repeat the previous 4 steps.
+    6. Use the inspect developer tool and select the ipad as a device and repeat the above 
+        mentioned first four steps
 
 ##### Footer:
     1. Go to the "Media" page and check if
@@ -125,30 +131,37 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ##### Pictures, Video's and Audio fragments
     1. Go to the "Media" page and check if 
-        - the caroussel for the video/tv fragments moves with the right as well as the left indicator
+        - the caroussel for the video/tv fragments moves with the right as well as the left 
+            indicator
         - the video/tv fragments can be played and paused
         - the caroussel for the pictures moves with the right as well as the left indicator
         - the caroussel for the audio fragments moves with the right as well as the left indicator
         - the audio fragments can be played and paused
-        - the "Want the lyrics" link redirects to the www.azlyrics.com site and displays the lyrics of the corresponding audio fragment
+        - the "Want the lyrics" link redirects to the www.azlyrics.com site and displays the 
+            lyrics of the corresponding audio fragment
         - the picture banner is correctly displayed
     2. Go to the "About Us" page and check if the picture banner is correctly displayed
     3. Go to the "Home" page and check if 
         - the video fragments can be played and paused
-    4. Use the inspect developer tool and select the mobile device (Galaxy S5) and repeat the previous 3 steps.
-    5. Use the inspect developer tool and select the ipad as a device and repeat the above mentioned first three steps
+    4. Use the inspect developer tool and select the mobile device (Galaxy S5) and repeat the 
+    previous 3 steps.
+    5. Use the inspect developer tool and select the ipad as a device and repeat the above 
+    mentioned first three steps
 **Bug:** The audio controls automatically contain the seeking function, where you can fast forward into the song. This is for the mobile not useable.The only option found to turn this of for the mobile is by using jquery and is therefore not solved.
 
 ##### Booking form
     1. Go to the "Book Now!" page
-    2. Use the inspect developers option to check the page on mobile (Galaxy S5) and iPad. Running the page without the inspect developer option represent the dtp version.
-    3. Try to submit the empty form and verify that an error message about the required fields appears
-    4. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    2. Use the inspect developers option to check the page on mobile (Galaxy S5) and iPad. 
+        Running the page without the inspect developer option represent the dtp version.
+    3. Try to submit the empty form and verify that an error message about the required fields 
+        appears
+    4. Try to submit the form with an invalid email address and verify that a relevant error 
+        message appears
     5. Try to submit the form with all inputs valid and verify that a success message appears.
 
 
 ## Deployment
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+This site is hosted using [GitHub pages](https://rory81.github.io/the-monkees/), deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/rory81/the-monkees.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
