@@ -92,7 +92,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
         device. In the above mentioned UX chapter the deviations from the mockups are noted.
         The inspect developer tool is used to select the Mobile (Galaxy S5) or the ipad device. 
         Running the page without the inspect developer option represent the dtp version.
-    3. Use CSS validator: validates as CSS level 3 + SVG. Existing warnings were about the use of 
+    3. Use HTML validator
+    4. Use CSS validator: validates as CSS level 3 + SVG. Existing warnings were about the use of 
         webkits for other browsers.
 **Bug:** The pages worked on Apple (OS Sierra) using Cloud9 preview on a 27 inch screen, but when testing the Github pages on this big screen **not** all pages where displayed as 
         intended.
