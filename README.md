@@ -144,9 +144,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
     3. Go to the "Home" page and check if 
         - the video fragments can be played and paused
     4. Use the inspect developer tool and select the mobile device (Galaxy S5) and repeat the 
-    previous 3 steps.
+        previous 3 steps.
     5. Use the inspect developer tool and select the ipad as a device and repeat the above 
-    mentioned first three steps
+        mentioned first three steps
 **Bug:** The audio controls automatically contain the seeking function, where you can fast forward into the song. This is for the mobile not useable.The only option found to turn this of for the mobile is by using jquery and is therefore not solved.
 
 ##### Booking form
