@@ -37,8 +37,8 @@ header {
     top: 50%;
     left: 50%;
     -webkit-transform: translateY(-50%) translateX(-50%);
-        -ms-transform: translateY(-50%) translateX(-50%);
-            transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
     font-size: 13px;
 }
 
@@ -119,6 +119,7 @@ header {
 }
 
 /*COLORS*/
+
 .ui-menu-color-home,
 .column-home {
     background-color: #ffff66;
@@ -186,7 +187,7 @@ iframe {
     width: 300px;
     height: 150px;
     padding-bottom: 10px;
-    border:none;
+    border: none;
 }
 
 /*CONTENT HOME*/
@@ -211,8 +212,9 @@ iframe {
     background: -o-linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldcamera.png");
     background: linear-gradient(rgb(255, 204, 153, 0.45), rgb(255, 204, 153, 0.65)), url("../images/oldcamera.png");
 }
+
 img {
-    width:50%; 
+    width: 50%;
 }
 
 
@@ -236,6 +238,7 @@ img {
 }
 
 /*CAROUSEL*/
+
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
@@ -246,8 +249,8 @@ img {
 
 .carousel-caption {
     -webkit-transform: translateY(50%);
-        -ms-transform: translateY(50%);
-            transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
     color: #000;
     padding-top: 0px;
 }
@@ -304,9 +307,11 @@ audio {
 form {
     padding: 50px 0px;
 }
+
 /*make the checked checkbox invisible to ensure validation of the form*/
+
 .form-check {
- visibility: hidden;   
+    visibility: hidden;
 }
 
 
@@ -365,8 +370,8 @@ footer {
         top: 50%;
         left: 50%;
         -webkit-transform: translateY(-50%) translateX(-50%);
-            -ms-transform: translateY(-50%) translateX(-50%);
-                transform: translateY(-50%) translateX(-50%);
+        -ms-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%);
         font-size: 30px;
     }
 
@@ -424,8 +429,8 @@ footer {
 
     .carousel-caption {
         -webkit-transform: translateY(-80%);
-            -ms-transform: translateY(-80%);
-                transform: translateY(-80%);
+        -ms-transform: translateY(-80%);
+        transform: translateY(-80%);
     }
 
 
@@ -476,20 +481,22 @@ footer {
         width: 60%;
         height: 400px;
     }
-    
+
     .carousel-caption {
         -webkit-transform: translateY(-250%);
-            -ms-transform: translateY(-250%);
-                transform: translateY(-250%);
+        -ms-transform: translateY(-250%);
+        transform: translateY(-250%);
     }
-    
+
     .mobile-title {
         font-size: 34px
     }
 }
 
 /*The min-height in mediaquery 990px was adjusted so the media page would also work on ipad held horizontally.*/
+
 /*The underlining media query is added to make the bannerpictures on the media page work on bigger screens. */
+
 @media (min-width:1459px) {
 
     .images {
